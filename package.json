@@ -1,0 +1,28 @@
+{
+  "name": "pureselect",
+  "version": "1.0.0",
+  "description": "pure javasctipt select with remote options",
+  "main": "dist/index.min.js",
+  "unpkg": "dist/index.min.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "select dropdown",
+    "remote select",
+    "vanilla javascript select"
+  ],
+  "author": "sleek development",
+  "license": "ISC",
+  "dependencies": {
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
